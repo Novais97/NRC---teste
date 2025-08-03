@@ -1,0 +1,82 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+#btn{
+    align-items: center;
+    justify-content: center;
+    padding: 1rem  4rem ;
+    margin-top: 2rem;
+    text-decoration: none;
+    font-size: 2.5rem;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+#btn:hover{
+    transform: scale(1.09);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5), 0 0 15px  rgba(0,0,0,0.5) ;
+}
+
+    html, body {
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Segoe UI', sans-serif;
+    }
+body {
+  background: linear-gradient(-45deg,
+    #ff6d00, #ff8f00, #fb8c00, #f4511e, #f57c00,
+    #fbc02d, #ffc107, #fdd835, #ffe082, #fff176,
+    #fff59d, #fff9c4, #ffecb3, #ffe0b2, #fffde7,
+    #f0f4c3, #ffff8d, #fafafa, #ffffff, #fffde7,
+    #ffe082, #fbc02d, #f57c00, #fb8c00, #ff6d00,
+    #ffc107, #fff59d, #fff176, #fffde7, #ffffff
+  );
+  background-size: 800% 800%;
+  animation:
+    sunriseMotion 20s linear infinite alternate,
+    sunlightPulse 20s linear infinite;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
+}
+
+
+/* Efeito do movimento de "nascer" e espalhar da luz */
+
+
+
+/* Pulsação do brilho da luz do sol */
+@keyframes sunlightPulse {
+  0%, 100% { filter: brightness(2); }
+  50%      { filter: brightness(0); }
+}
+
+    .thankyou-card {
+      background-color: rgba(0, 0, 0, 0.3);
+      color: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+      text-align: center;
+      max-width: 500px;
+    }
+
+    .thankyou-card h1 {
+      color: #e4c1ff;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .thankyou-card p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #ddd;
+    }
