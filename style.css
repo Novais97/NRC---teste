@@ -1239,7 +1239,6 @@ html {
  display: flex;
   flex-direction: column; /* empilha os cards verticalmente */
   gap: 20px;
-
   padding: 20px;
  flex-wrap: nowrap;
   background: #e0e0e0;
@@ -1247,7 +1246,6 @@ html {
   background-size: cover;
   align-items: center;
   width: 100%;
- 
   align-items: center;
   justify-content: center;
 }
@@ -1397,4 +1395,5 @@ html {
   }
 }
 /* Responsividade para celulares pequenos (max-width: 400px) */
+
 
