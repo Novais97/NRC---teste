@@ -1201,7 +1201,7 @@ html {
   }
 }
 /* Responsividade para tablets (max-width: 762px) */
-@media (max-width: 762px) {
+@media (max-width: 768px) {
   body {
     box-sizing: border-box;
     flex-wrap: nowrap;
@@ -1239,15 +1239,15 @@ html {
  display: flex;
   flex-direction: column; /* empilha os cards verticalmente */
   gap: 20px;
-  /* background: url(https://res.cloudinary.com/dkmqnk2w9/image/upload/v1754189502/pexels-andre-furtado-43594-986893_bumnm0.jpg); */
+
   padding: 20px;
- 
+ flex-wrap: nowrap;
   background: #e0e0e0;
   background-position: center;
   background-size: cover;
   align-items: center;
   width: 100%;
-  display: flex;
+ 
   align-items: center;
   justify-content: center;
 }
@@ -1397,3 +1397,4 @@ html {
   }
 }
 /* Responsividade para celulares pequenos (max-width: 400px) */
+
